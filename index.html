@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script type="text/javascript" src="main.js" async></script>
+    <title>QR Create Code</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Qr Code Generator</h2>
+        <center>
+            <img src="" id="img">
+        </center>
+        <select id="size">
+            <option value="100">100x100</option>
+            <option value="150">150x150</option>
+            <option value="200">200x200</option>
+            <option value="250" selected>250x250</option>
+            <option value="300">300x300</option>
+        </select>
+        <br><br>
+        <textarea placeholder="Enter your text" id="qrtext" cols="30" rows="6"></textarea>
+        <br><br>
+        <button type="submit" value="Generate" id="generate-qr">
+        Generate
+        </button>
+        <p>Developed By Brandon Vera</p>
+    </div>
+
+
+
+</body>
+</html>
